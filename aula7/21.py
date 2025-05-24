@@ -1,7 +1,7 @@
-# 21. Pares e Ã­mpares entre o primeiro e Ãºltimo
+# 21. Pares e ímpares entre o primeiro e último
 numeros = []
 while True:
-    n = int(input("Digite um nÃºmero (0 para sair): "))
+    n = int(input("Digite um número (0 para sair): "))
     if n == 0:
         break
     numeros.append(n)
@@ -14,6 +14,6 @@ if len(numeros) >= 2:
             pares += 1
         else:
             impares += 1
-    print("Pares:", pares, "Ãmpares:", impares)
+    print("Pares:", pares, "ímpares:", impares)
 else:
-    print("NÃ£o foi possÃ­vel calcular.")
+    print("Não foi possível calcular.")
